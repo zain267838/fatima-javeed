@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Fatima Javeed">
+  <rect width="64" height="64" rx="16" fill="#064F50"/>
+  <path d="M9 14H32V21.5H17V28.5H28V36H17V50H9V14Z" fill="#FFF4EC"/>
+  <path d="M31 37H38V42.5H47V14H55V50H31V37Z" fill="#F5A58C"/>
+</svg>

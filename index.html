@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#064F50" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script>
+      (function() {
+        try {
+          var _currentFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return _currentFetch;
+            },
+            set: function(val) {
+              _currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          try {
+            var _protoFetch = Window.prototype.fetch;
+            Object.defineProperty(Window.prototype, 'fetch', {
+              get: function() {
+                return _protoFetch;
+              },
+              set: function(val) {
+                _protoFetch = val;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          } catch (err) {}
+        }
+
+        window.addEventListener('error', function(event) {
+          if (event && event.message && event.message.includes('fetch')) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            return true;
+          }
+        }, true);
+      })();
+    </script>
+    <title>Fatima Javeed | Senior SEO Copywriter &amp; Content Strategist</title>
+    <meta name="description" content="Senior SEO Copywriter and Content Strategist helping brands grow through search-driven content, SEO strategy, and conversion-focused storytelling." />
+    <meta property="og:title" content="Fatima Javeed | Senior SEO Copywriter &amp; Content Strategist" />
+    <meta property="og:description" content="Senior SEO Copywriter and Content Strategist helping brands grow through search-driven content, SEO strategy, and conversion-focused storytelling." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fatima Javeed | Senior SEO Copywriter &amp; Content Strategist" />
+    <meta name="twitter:description" content="Senior SEO Copywriter and Content Strategist helping brands grow through search-driven content, SEO strategy, and conversion-focused storytelling." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FFF4EC] text-[#173E3D] selection:bg-[#F5A58C] selection:text-[#064F50] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

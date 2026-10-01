@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="EmpRadar AI social media profile mockup">
+  <defs>
+    <linearGradient id="erPage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF4EC"/>
+      <stop offset="1" stop-color="#B9E5DE"/>
+    </linearGradient>
+    <linearGradient id="erBanner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#064F50"/>
+      <stop offset="1" stop-color="#0B6865"/>
+    </linearGradient>
+    <linearGradient id="erPost" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7F4F1"/>
+      <stop offset="1" stop-color="#FFF4EC"/>
+    </linearGradient>
+    <clipPath id="erWin">
+      <rect x="70" y="44" width="660" height="512" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#erPage)"/>
+  <circle cx="712" cy="78" r="74" fill="#F8C96B" opacity="0.4"/>
+  <circle cx="86" cy="546" r="88" fill="#F5A58C" opacity="0.32"/>
+
+  <g clip-path="url(#erWin)">
+    <rect x="70" y="44" width="660" height="512" fill="#FFFFFF"/>
+
+    <!-- Top app bar -->
+    <rect x="70" y="44" width="660" height="52" fill="#F2F6F5"/>
+    <circle cx="104" cy="70" r="6" fill="#F5A58C"/>
+    <circle cx="124" cy="70" r="6" fill="#F8C96B"/>
+    <circle cx="144" cy="70" r="6" fill="#B9E5DE"/>
+    <rect x="182" y="58" width="250" height="24" rx="12" fill="#FFFFFF"/>
+    <circle cx="200" cy="70" r="6" fill="none" stroke="#0B6865" stroke-width="2"/>
+    <line x1="204.5" y1="74.5" x2="209" y2="79" stroke="#0B6865" stroke-width="2" stroke-linecap="round"/>
+    <rect x="620" y="60" width="86" height="20" rx="10" fill="#064F50"/>
+
+    <!-- Cover banner -->
+    <rect x="70" y="96" width="660" height="132" fill="url(#erBanner)"/>
+    <circle cx="640" cy="130" r="46" fill="#FFF4EC" opacity="0.08"/>
+    <circle cx="600" cy="196" r="26" fill="#F5A58C" opacity="0.35"/>
+
+    <!-- Avatar -->
+    <circle cx="146" cy="252" r="52" fill="#043839" stroke="#FFFFFF" stroke-width="8"/>
+    <text x="146" y="264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#B9E5DE" text-anchor="middle">ER</text>
+    <circle cx="184" cy="292" r="13" fill="#F5A58C" stroke="#FFFFFF" stroke-width="4"/>
+
+    <!-- Brand name + handle -->
+    <text x="218" y="234" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#064F50">EmpRadar AI</text>
+    <text x="218" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#4E7A78">@empradarai  ·  AI &amp; HR Technology</text>
+
+    <!-- Stats -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#0B6865">
+      <rect x="218" y="278" width="98" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="234" y="296" font-weight="600">Followers</text>
+      <rect x="328" y="278" width="86" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="344" y="296" font-weight="600">Posts</text>
+      <rect x="426" y="278" width="112" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="442" y="296" font-weight="600">Engagement</text>
+    </g>
+
+    <!-- Post 1 -->
+    <rect x="100" y="326" width="600" height="112" rx="16" fill="#FFFFFF" stroke="#E3ECEA" stroke-width="2"/>
+    <circle cx="128" cy="352" r="13" fill="#064F50"/>
+    <text x="128" y="357" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFF4EC" text-anchor="middle">ER</text>
+    <text x="150" y="348" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#064F50">EmpRadar AI</text>
+    <text x="150" y="366" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#7A9B99">2h  ·  AI talent insights</text>
+    <rect x="124" y="380" width="420" height="8" rx="4" fill="#064F50" opacity="0.22"/>
+    <rect x="124" y="398" width="330" height="8" rx="4" fill="#064F50" opacity="0.14"/>
+    <rect x="124" y="416" width="250" height="8" rx="4" fill="#F5A58C" opacity="0.45"/>
+    <path d="M620 400c-4 0-7 3-7 6.5 0 4.5 7 10 7 10s7-5.5 7-10c0-3.5-3-6.5-7-6.5z" fill="#F5A58C"/>
+    <path d="M572 398h18v11h-11l-5 4v-4h-2z" fill="none" stroke="#0B6865" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M664 402l6-5v4c6 0 9 3 9 9-2-3-5-4-9-4v4z" fill="none" stroke="#0B6865" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Post 2 -->
+    <rect x="100" y="452" width="600" height="90" rx="16" fill="#FFFFFF" stroke="#E3ECEA" stroke-width="2"/>
+    <circle cx="128" cy="478" r="13" fill="#0B6865"/>
+    <text x="128" y="483" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFF4EC" text-anchor="middle">ER</text>
+    <text x="150" y="474" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#064F50">EmpRadar AI</text>
+    <text x="150" y="492" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#7A9B99">1d  ·  Hiring trends</text>
+    <rect x="124" y="506" width="360" height="8" rx="4" fill="#064F50" opacity="0.2"/>
+    <rect x="124" y="524" width="280" height="8" rx="4" fill="#064F50" opacity="0.12"/>
+    <rect x="596" y="498" width="80" height="30" rx="15" fill="#064F50"/>
+    <text x="636" y="518" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#FFF4EC" text-anchor="middle">Follow</text>
+  </g>
+
+  <rect x="70" y="44" width="660" height="512" rx="30" fill="none" stroke="#064F50" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Platform badges -->
+  <g>
+    <rect x="628" y="516" width="88" height="34" rx="17" fill="#064F50" opacity="0.9"/>
+    <text x="672" y="538" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFF4EC" text-anchor="middle">in</text>
+    <rect x="556" y="516" width="64" height="34" rx="17" fill="#FFFFFF" opacity="0.92"/>
+    <text x="588" y="539" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#064F50" text-anchor="middle">X</text>
+    <rect x="490" y="516" width="58" height="34" rx="17" fill="#FFFFFF" opacity="0.92"/>
+    <rect x="513" y="524" width="12" height="18" rx="4" fill="none" stroke="#064F50" stroke-width="2.4"/>
+    <circle cx="519" cy="531" r="3" fill="none" stroke="#064F50" stroke-width="2"/>
+    <circle cx="521.5" cy="538.5" r="1.4" fill="#064F50"/>
+    <rect x="426" y="516" width="58" height="34" rx="17" fill="#FFFFFF" opacity="0.92"/>
+    <text x="455" y="539" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#064F50" text-anchor="middle">f</text>
+  </g>
+</svg>

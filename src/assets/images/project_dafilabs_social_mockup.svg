@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="DafiLabs social media profile mockup">
+  <defs>
+    <linearGradient id="dlPage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF4EC"/>
+      <stop offset="1" stop-color="#B9E5DE"/>
+    </linearGradient>
+    <linearGradient id="dlBanner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#064F50"/>
+      <stop offset="1" stop-color="#043839"/>
+    </linearGradient>
+    <clipPath id="dlWin">
+      <rect x="70" y="44" width="660" height="512" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#dlPage)"/>
+  <circle cx="700" cy="500" r="96" fill="#F8C96B" opacity="0.35"/>
+  <circle cx="104" cy="92" r="66" fill="#F5A58C" opacity="0.3"/>
+
+  <g clip-path="url(#dlWin)">
+    <rect x="70" y="44" width="660" height="512" fill="#FFFFFF"/>
+
+    <!-- Top app bar -->
+    <rect x="70" y="44" width="660" height="52" fill="#F3F1EE"/>
+    <circle cx="104" cy="70" r="6" fill="#F5A58C"/>
+    <circle cx="124" cy="70" r="6" fill="#F8C96B"/>
+    <circle cx="144" cy="70" r="6" fill="#B9E5DE"/>
+    <rect x="182" y="58" width="250" height="24" rx="12" fill="#FFFFFF"/>
+    <circle cx="200" cy="70" r="6" fill="none" stroke="#0B6865" stroke-width="2"/>
+    <line x1="204.5" y1="74.5" x2="209" y2="79" stroke="#0B6865" stroke-width="2" stroke-linecap="round"/>
+    <rect x="620" y="60" width="86" height="20" rx="10" fill="#064F50"/>
+
+    <!-- Cover banner -->
+    <rect x="70" y="96" width="660" height="132" fill="url(#dlBanner)"/>
+    <circle cx="622" cy="140" r="40" fill="#F8C96B" opacity="0.18"/>
+    <rect x="560" y="180" width="130" height="10" rx="5" fill="#F5A58C" opacity="0.4"/>
+
+    <!-- Avatar -->
+    <circle cx="146" cy="252" r="52" fill="#F8C96B" stroke="#FFFFFF" stroke-width="8"/>
+    <text x="146" y="263" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#043839" text-anchor="middle">DL</text>
+    <circle cx="184" cy="292" r="13" fill="#B9E5DE" stroke="#FFFFFF" stroke-width="4"/>
+
+    <!-- Brand name + handle -->
+    <text x="218" y="234" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#064F50">DafiLabs</text>
+    <text x="218" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#4E7A78">@DafiLabs  ·  Digital Product Studio</text>
+
+    <!-- Stats -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#0B6865">
+      <rect x="218" y="278" width="98" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="234" y="296" font-weight="600">Followers</text>
+      <rect x="328" y="278" width="86" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="344" y="296" font-weight="600">Posts</text>
+      <rect x="426" y="278" width="112" height="26" rx="13" fill="#064F50" opacity="0.06"/>
+      <text x="442" y="296" font-weight="600">Engagement</text>
+    </g>
+
+    <!-- Post 1 -->
+    <rect x="100" y="326" width="600" height="112" rx="16" fill="#FFFFFF" stroke="#E7E3DC" stroke-width="2"/>
+    <circle cx="128" cy="352" r="13" fill="#064F50"/>
+    <text x="128" y="357" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFF4EC" text-anchor="middle">DL</text>
+    <text x="150" y="348" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#064F50">DafiLabs</text>
+    <text x="150" y="366" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#7E8F8D">5h  ·  Product update</text>
+    <rect x="124" y="380" width="410" height="8" rx="4" fill="#064F50" opacity="0.2"/>
+    <rect x="124" y="398" width="320" height="8" rx="4" fill="#064F50" opacity="0.13"/>
+    <rect x="124" y="416" width="230" height="8" rx="4" fill="#F8C96B" opacity="0.6"/>
+    <path d="M620 400c-4 0-7 3-7 6.5 0 4.5 7 10 7 10s7-5.5 7-10c0-3.5-3-6.5-7-6.5z" fill="#F5A58C"/>
+    <path d="M572 398h18v11h-11l-5 4v-4h-2z" fill="none" stroke="#0B6865" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M664 402l6-5v4c6 0 9 3 9 9-2-3-5-4-9-4v4z" fill="none" stroke="#0B6865" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Post 2 -->
+    <rect x="100" y="452" width="600" height="90" rx="16" fill="#FFFFFF" stroke="#E7E3DC" stroke-width="2"/>
+    <circle cx="128" cy="478" r="13" fill="#043839"/>
+    <text x="128" y="483" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFF4EC" text-anchor="middle">DL</text>
+    <text x="150" y="474" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#064F50">DafiLabs</text>
+    <text x="150" y="492" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#7E8F8D">1d  ·  Brand story</text>
+    <rect x="124" y="506" width="370" height="8" rx="4" fill="#064F50" opacity="0.18"/>
+    <rect x="124" y="524" width="270" height="8" rx="4" fill="#064F50" opacity="0.11"/>
+    <rect x="596" y="498" width="80" height="30" rx="15" fill="#064F50"/>
+    <text x="636" y="518" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#FFF4EC" text-anchor="middle">Follow</text>
+  </g>
+
+  <rect x="70" y="44" width="660" height="512" rx="30" fill="none" stroke="#064F50" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Platform badges -->
+  <g>
+    <rect x="628" y="516" width="88" height="34" rx="17" fill="#064F50" opacity="0.9"/>
+    <text x="672" y="538" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFF4EC" text-anchor="middle">in</text>
+    <rect x="556" y="516" width="58" height="34" rx="17" fill="#FFFFFF" opacity="0.92"/>
+    <text x="585" y="540" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#064F50" text-anchor="middle">f</text>
+  </g>
+</svg>
